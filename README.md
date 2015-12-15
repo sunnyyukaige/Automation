@@ -13,8 +13,12 @@
   * Element.js (define the elements and relative property)
   * sunny_testInit.js (using for test and research some new method and idea)
 #CasperDom
+  * DomElement.js (define some DOM action )
 #CommonUtility
+  * AssertHelper.js (define an assert class base on casperjs tester module `for the tester current version did not support self created casper instance and it will when V2.0 come out , then i will update this framework with tester supported function`)
 --------------------------------------------华丽分界线------------------------------------------------------------------
 #Page
+  * BasePage.js (define some comment method and property for all other funciton page)
+  * LoginPage.js (will be many page like this provide for test cases using)
 #TestCases
 
