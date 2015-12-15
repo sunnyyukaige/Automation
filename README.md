@@ -7,4 +7,14 @@
 ### * *refine this framework with nodejs*
 ### * *write one login case with framework created*
 ### * *refine this framework to support more cases and make it stable*
+#BaseCasper
+  * CasperInit.js (initial the casperjs instance by singletion pattern)
+  * CasperAction.js (define the action provide by phantom browser)
+  * Element.js (define the elements and relative property)
+  * sunny_testInit.js (using for test and research some new method and idea)
+#CasperDom
+#CommonUtility
+--------------------------------------------华丽分界线------------------------------------------------------------------
+#Page
+#TestCases
 
