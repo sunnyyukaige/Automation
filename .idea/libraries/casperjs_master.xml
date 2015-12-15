@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="casperjs-master" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/../casperjs source/casperjs-master" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../casperjs source/casperjs-master" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
