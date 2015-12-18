@@ -22,7 +22,7 @@
  -------------------------------华丽分界线------------------------------------------------------  
 
 **Page**
-   - BasePage.js (define some comment method and property for all other funciton page)
+   - BasePage.js (add some hook and define some comment method and property for all other funciton page)
    - LoginPage.js (will be many page like this provide for test cases using)  
  
 **TestCases**
