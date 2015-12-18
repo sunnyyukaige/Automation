@@ -4,13 +4,13 @@
 var element =require('../BaseCasper/Element');
 var action = require('../BaseCasper/CasperAction');
 var assert=require('../CommonUtility/AssertHelper');
-assert=new assert();
 function basePage() {
 }
 
 basePage.prototype.compareTitle=function compareTitle(expectTitle){
-     var title=element.title();
-    assert.assertEqual(title,expectTitle,"actual title is "+title+"but expect is "+expectTitle);
+     var title=element.title(expectTitle);
+    //assert.assertEqual
+    //    (title,expectTitle,"actual title is "+title+"but expect is "+expectTitle);
    // assertEquals(element.title,expectTitle,"actual title is "+element.title+"but expect is "+expectTitle);
 }
 

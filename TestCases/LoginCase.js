@@ -12,7 +12,8 @@ var basepage=require('../Page/BasePage');
 basepage=new basepage();
 var loginpage=require('../Page/LoginPage');
 loginpage=new loginpage();
-
+var pathHelper=require('../CommonUtility/PathHelper');
+pathHelper.setToday();
 basepage.open('http://dailyodin.ef.com/',function(){
 capture.capture('f:\\caspercapture\\sunnycaspertestyeah1.png');
 });
@@ -21,7 +22,7 @@ casperDriver.then(function() {
     loginpage.fillPSW('test');
     loginpage.Login();
     basepage.compareTitle('ODIN+');
-    capture.capture('f:\\caspercapture\\sunnycaspertestyeah2.png',null,null,null,null);
+
 });
 casperDriver.run();
 

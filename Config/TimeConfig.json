@@ -2,5 +2,5 @@
   "name": "application-name",
   "version": "0.0.1",
   "waittimeout":6000,
-  "capturepath":"f:\\"
+  "capturepath":"f:\\caspercapture\\"
 }

@@ -7,15 +7,12 @@ var casperDriver=casperInit.getCasperDriver();
 var wait=require('../CommonUtility/Wait');
 
 
-exports.title=function title(){
-   var title;
-   wait.waitForCondition(function(){
-      casperDriver.evaluate(function(){
-
-         return title=document.title;
-      }).length>0;
-   });
-   return title;
+exports.title=function title(titlename){
+   wait.waitForCondition(function check(){
+      return casperDriver.evaluate(function(){
+         return document.title==titlename
+      })
+   },240000)
 };
 
 

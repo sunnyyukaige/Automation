@@ -1,11 +1,9 @@
 /**
  * Created by sunny.yu2 on 12/15/2015.
  */
-var require=patchRequire('require');
-var utils=require('utils');
+var require=patchRequire(require);
 var tester=require('tester');
-function AssertHelper(){
 
+exports.assertEqual=function(subject,expected,message){
+    tester.assertEqual(subject,expected,message);
 }
-utils.inherits(AssertHelper,tester);
-module.exports=AssertHelper;
